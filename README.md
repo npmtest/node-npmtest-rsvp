@@ -1,4 +1,7 @@
-# test coverage for  [rsvp (v3.5.0)](https://github.com/tildeio/rsvp.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rsvp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rsvp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rsvp.svg)](https://travis-ci.org/npmtest/node-npmtest-rsvp)
+# npmtest-rsvp
+
+#### basic test coverage for  [rsvp (v3.5.0)](https://github.com/tildeio/rsvp.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rsvp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rsvp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rsvp.svg)](https://travis-ci.org/npmtest/node-npmtest-rsvp)
+
 #### A lightweight library that provides tools for organizing asynchronous code
 
 [![NPM](https://nodei.co/npm/rsvp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rsvp)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rsvp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rsvp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rsvp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rsvp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rsvp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rsvp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rsvp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rsvp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rsvp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rsvp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rsvp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rsvp/build/coverage.html/index.html)
 
@@ -121,7 +124,8 @@
         "test:node": "ember build && mocha ./dist/test/browserify",
         "test:server": "ember test --server"
     },
-    "version": "3.5.0"
+    "version": "3.5.0",
+    "bin": {}
 }
 ```
 
